@@ -13,6 +13,7 @@ body{
     font-size: var(--text-large);
     top: 0;
     bottom: 0;
+    height:100%;
 
 
 }
