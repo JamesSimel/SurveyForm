@@ -1,3 +1,3 @@
 # SurveyForm. 
-#I this projects I made a nice survey form for "HackerOne".
+#In his projects I made a nice survey form for "HackerOne".
 #Feel free to pull or fork this repo....
