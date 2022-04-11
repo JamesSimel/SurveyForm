@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head> <title>Survey Form</title></head>
+    <link rel="stylesheet" href="styles.css">
+    <body>
+        <div class="container">
+            <h1 class="center" id="title">HackerOne Survey Form</h1>
+            <p id="description" class="center">Your feedback as a hacker matters to us</p>
+            <form action="#" id="survey-form">
+                <div class="group">
+                    <label for="name" id="name-label">Name</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Enter Your Name" required>
+                </div>
+                <div class="group">
+                    <label for="email" id="email-label">Email</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Enter Your Email" required>
+                </div>
+                <div class="group">
+                    <label for="tel" id="number-label">Number <span>(optional)</span></label>
+                    <input type="tel" id="number" name="number" class="form-control" placeholder="Enter Your Number" >
+                </div>
+                <div class="group">
+                    <p>Which option best describes your current role?</p>
+                    <select id="dropdown" name="role" required class="form-control">
+                        <option disabled selected value>Select current role</option>
+                        <option value="student">Student</option>
+                        <option value="job">Pentester</option>
+                        <option value="bounty">Bug Bounty Hunter</option>
+                        <option value="preferNo">Prefer not to say</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="group">
+                    <p>How likely will you recommend HackerOne to someone?</p>
+                    <label for="most-likely">
+                        <input type="radio" 
+                        name="user-recommend"
+                        class="input-radio"
+                        value="most-likely" checked>
+                        Most Likely
+                    </label>
+                    <label for="less-likely">
+                        <input type="radio" 
+                        class="input-radio"
+                        name="user-recommend"
+                        value="less-likely" >
+                        Less Likely
+                    </label>
+                    <label for="unlikely">
+                        <input type="radio" 
+                        class="input-radio"
+                        name="user-recommend"
+                        value="unlikely" >
+                        Unlikely
+                    </label>
+                </div>
+                <div class="group">
+                    <p>What will love to be improved in the in our platform?
+                        <span>(check all that apply)</span>
+                    </p>
+                    <label for="CTFs">
+                        <input type="checkbox" 
+                        name="prefer"
+                        value="ctfs" class="input-checkbox">
+                        Capture The Flags
+                    </label>
+                    <label for="payment">
+                        <input type="checkbox" 
+                        name="prefer"
+                        value="payment" class="input-checkbox">
+                        Payment for Bugs
+                    </label>
+                    <label for="competitions">
+                        <input type="checkbox" 
+                        name="prefer"
+                        value="competitions" class="input-checkbox">
+                        competitions
+                    </label>
+                    <label for="courses">
+                        <input type="checkbox" 
+                        name="prefer"
+                        value="courses" class="input-checkbox">
+                        Courses
+                    </label>
+                </div>
+                <textarea name="" id="message" cols="30" rows="10"></textarea>
+                <button id="submit" type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
