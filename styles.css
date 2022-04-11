@@ -5,7 +5,7 @@
 }
 body{
     background-image: url(https://cdn3.vectorstock.com/i/1000x1000/83/07/cyber-security-template-with-padlock-and-check-vector-24038307.jpg);
-    background-position: fixed;
+    background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--tex-white);
